@@ -269,4 +269,14 @@ body {
   position: absolute;
   margin-top: -58px;
   height: calc(100vh - 300px) ;
+
+}
+
+.arm.left {
+  transform-origin: top right;
+  transition: transform 0.3s ease-in-out;
+}
+
+.penguin:hover .arm.left {
+  transform: rotate(-40deg);
 }
